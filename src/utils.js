@@ -184,7 +184,7 @@ export function determineVisible(flat) {
  * @param {Set<ILabelNode>} visibles
  * @param {'center'|'first'|'last'|'between-first-and-second'} groupLabelPosition
  */
-export function spanLogic(node, flat, visibles, groupLabelPosition = 'between-first-and-second') {
+export function spanLogic(node, flat, visibles, groupLabelPosition = 'center') {
   if (node.children.length === 0 || !node.expand) {
     return false;
   }
