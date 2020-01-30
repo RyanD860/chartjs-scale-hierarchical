@@ -33,7 +33,7 @@ const defaultConfig = Object.assign({}, scaleService.getScaleDefaults('category'
    * positon of the hierarchy group label relative to the its children
    * possible values: 'center', 'first', 'last', 'between-first-and-second' (default)
    */
-  hierarchyGroupLabelPosition: 'between-first-and-second',
+  hierarchyGroupLabelPosition: 'center',
 
   /**
    * size of the box to draw
